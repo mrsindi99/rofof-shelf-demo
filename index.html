@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#faf9f6" />
+    <meta name="robots" content="noindex,nofollow" />
+    <meta name="description" content="علامتك ما تحتاج فرع. علامتك تحتاج رفوف. اكتشف تجربة الرف التفاعلي." />
+    <meta property="og:title" content="رفوف — علامتك ما تحتاج فرع" />
+    <meta property="og:description" content="تجربة تفاعلية: اضغط على أي منتج أو رمز QR واكتشف قصته." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://rofof-shelf-demo.vercel.app/" />
+    <meta property="og:image" content="https://rofof-shelf-demo.vercel.app/share-preview-v2.png" />
+    <meta property="og:image:width" content="1440" />
+    <meta property="og:image:height" content="900" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <title>رفوف — علامتك ما تحتاج فرع</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preload" href="/fonts/arabic-400.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/products/flower.webp" as="image" />
+  </head>
+  <body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-external" viewBox="0 0 24 24"><path d="M6 18 18 6M10 6h8v8"/></symbol>
+      <symbol id="i-launch" viewBox="0 0 24 24"><path d="M5 19 19 5M10 5h9v9"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="m9 6 9 6-9 6z"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-chevron-left" viewBox="0 0 24 24"><path d="m14.5 5-7 7 7 7"/></symbol>
+      <symbol id="i-chevron-right" viewBox="0 0 24 24"><path d="m9.5 5 7 7-7 7"/></symbol>
+      <symbol id="i-tap" viewBox="0 0 24 24"><path d="M12 3v6M7.8 5.1l2.1 2.1M16.2 5.1l-2.1 2.1M7 14.5l2.2 4.2A4 4 0 0 0 12.8 21H15a4 4 0 0 0 4-4v-5a1.7 1.7 0 0 0-3.4 0v2.1a1.7 1.7 0 0 0-3.2-.8V9.8a1.7 1.7 0 0 0-3.4 0v4.7l-.8-1.3a1.7 1.7 0 1 0-3 1.3Z"/></symbol>
+      <symbol id="i-shelf" viewBox="0 0 24 24"><path d="M4 7h16M6 7v11M18 7v11M3 18h18M7 12h10"/></symbol>
+      <symbol id="i-qr" viewBox="0 0 24 24"><path d="M4 4h6v6H4zM14 4h6v6h-6zM4 14h6v6H4zM15 14h2v2h-2zM18 15h2v5h-4v-2h2zM12 12h3v3h-3z"/></symbol>
+    </svg>
+    <a class="skip-link" href="#main" data-i18n="skip">انتقل إلى المحتوى</a>
+    <div class="hero-shell">
+    <header class="site-header">
+      <a class="brand" href="https://rofof.sa/" target="_blank" rel="noopener noreferrer" aria-label="رفوف — الموقع الرسمي">
+        <img src="/rofof-logo.svg" alt="رفوف" width="148" height="56" />
+      </a>
+      <nav aria-label="التنقل الرئيسي">
+        <a class="nav-link current" href="#main" data-i18n="home">الرئيسية</a>
+        <a class="nav-link" href="https://rofof.sa/about" target="_blank" rel="noopener noreferrer" data-i18n="about">عن رفوف</a>
+        <button class="nav-link" id="how-button" data-i18n="how">كيف تعمل رفوف؟</button>
+      </nav>
+      <div class="header-actions">
+        <button class="language-button" id="language" aria-label="Switch to English"><span class="language-label">EN</span><svg class="ui-icon ui-icon--micro"><use href="#i-external" /></svg></button>
+        <a class="login-button" href="https://rofof.sa/login" target="_blank" rel="noopener noreferrer"><span data-i18n="login">تسجيل الدخول</span><svg class="ui-icon ui-icon--micro"><use href="#i-external" /></svg></a>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span><span data-i18n="eyebrow">حضور فعلي. تشغيل سحابي.</span></div>
+          <h1 id="hero-title"><span class="headline-light" data-i18n="headline1">علامتك ما<br />تحتاج فرع.</span><span class="headline-strong" data-i18n="headline2">علامتك تحتاج<br /><span class="rofof-word">رفوف.</span></span></h1>
+          <p class="hero-description" data-i18n="description">مشغّل سحابي يفتح لعلامتك مساحات بيع فعلية جاهزة، بلا فروع جديدة ولا إدارة تشغيل معقّدة.</p>
+          <div class="hero-actions">
+            <a class="primary-button" href="https://rofof.sa/register?type=brand" target="_blank" rel="noopener noreferrer"><span data-i18n="start">ابدأ كعلامة تجارية</span><svg class="ui-icon ui-icon--light"><use href="#i-launch" /></svg></a>
+            <button class="text-button" id="try-button"><svg class="ui-icon"><use href="#i-play" /></svg><span data-i18n="try">جرّب الرف بنفسك</span></button>
+          </div>
+          <div class="copy-note"><svg class="ui-icon ui-icon--note" aria-hidden="true"><use href="#i-shelf" /></svg><span data-i18n="brandNote">هويتك ظاهرة في كل مساحة، وكل نقطة بيع.</span></div>
+        </div>
+
+        <div class="showcase" id="showcase">
+          <div class="scene" id="scene">
+            <section class="product-panel" id="product-panel" role="region" tabindex="-1" aria-labelledby="detail-title" hidden>
+              <div class="panel-heading"><span class="panel-kicker"><span class="status-dot"></span><span data-i18n="productStory">من الرف إلى التفاصيل</span></span><button class="close-button" id="close-product" aria-label="إغلاق تفاصيل المنتج"><svg class="ui-icon"><use href="#i-close" /></svg></button></div>
+              <h2 id="detail-title"></h2>
+              <p class="detail-description" id="detail-description"></p>
+              <dl class="product-facts" id="product-facts"></dl>
+              <div class="panel-footer"><button class="share-product" id="share-product"><span data-i18n="share">نسخ رابط المنتج</span><svg class="ui-icon ui-icon--micro"><use href="#i-external" /></svg></button><button id="show-qr" class="show-qr" aria-label="QR"><span>QR</span><svg class="ui-icon ui-icon--micro"><use href="#i-qr" /></svg></button></div>
+            </section>
+            <div class="stage" id="stage"><img class="shelf-art" src="/shelf-studio.webp" width="1600" height="1067" alt="" aria-hidden="true" /><div class="shelf-products" id="shelf-products"></div><div id="qr-displays" class="qr-displays"></div></div>
+          </div>
+          <div class="shelf-bottom"><div class="interaction-hint"><svg class="ui-icon touch-icon" aria-hidden="true"><use href="#i-tap" /></svg><span data-i18n="hint">المس منتجًا. اكتشف حكايته.</span></div><div class="shelf-navigation" dir="ltr"><button id="previous-products" aria-label="Previous products"><svg class="ui-icon"><use href="#i-chevron-left" /></svg></button><span id="selection-count">01 / 02</span><button id="next-products" aria-label="Next products"><svg class="ui-icon"><use href="#i-chevron-right" /></svg></button></div></div>
+        </div>
+      </section>
+
+    </main>
+    <footer class="footer"><span data-i18n="demoNote">تصوّر تفاعلي · منتجات للعرض التجريبي</span><a href="https://rofof.sa/" target="_blank" rel="noopener noreferrer"><span>rofof.sa</span><svg class="ui-icon ui-icon--micro"><use href="#i-external" /></svg></a></footer>
+    </div>
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    <dialog id="qr-dialog" class="qr-dialog" aria-labelledby="qr-title"><button class="close-button" id="close-qr" aria-label="Close QR"><svg class="ui-icon"><use href="#i-close" /></svg></button><span class="small-label" data-i18n="productStory">من الرف إلى التفاصيل</span><h2 id="qr-title"></h2><canvas id="large-qr" role="img" aria-label="Product QR code"></canvas><p data-i18n="scan">امسح الرمز لفتح حكاية المنتج</p></dialog>
+    <dialog id="how-dialog" class="how-dialog" aria-labelledby="how-title">
+      <button class="close-button" id="close-how" aria-label="إغلاق"><svg class="ui-icon"><use href="#i-close" /></svg></button><span class="small-label" data-i18n="journey">رحلتك مع رفوف</span><h2 id="how-title" data-i18n="howTitle">ثلاث خطوات، وتبدأ البيع.</h2>
+      <ol><li><span>01</span><div><h3 data-i18n="step1">سجّل في رفوف</h3><p data-i18n="step1Text">أنشئ حساب علامتك التجارية في دقائق.</p></div></li><li><span>02</span><div><h3 data-i18n="step2">اختر المساحات</h3><p data-i18n="step2Text">اختر المساحات الفعلية المناسبة لعلامتك.</p></div></li><li><span>03</span><div><h3 data-i18n="step3">تابع مبيعاتك</h3><p data-i18n="step3Text">تابع حركة مبيعاتك من لوحة تحكّم واحدة.</p></div></li></ol>
+      <a class="primary-button" href="https://rofof.sa/register?type=brand" target="_blank" rel="noopener noreferrer"><span data-i18n="start">ابدأ كعلامة تجارية</span><svg class="ui-icon ui-icon--light"><use href="#i-launch" /></svg></a>
+    </dialog>
+    <noscript><p class="noscript">يرجى تفعيل JavaScript لتجربة المنتجات التفاعلية. <a href="https://rofof.sa/">زيارة رفوف</a></p></noscript>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
